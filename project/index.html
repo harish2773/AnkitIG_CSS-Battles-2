@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-    <title>Villa Agency - Real Estate HTML5 Template</title>
+    <title>Asian Games 2023- CSS Battles</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -21,11 +21,48 @@
     <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 <!--
 
-TemplateMo 591 villa agency
+
 
 https://templatemo.com/tm-591-villa-agency
 
 -->
+
+<style>
+
+  /* Style the dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style the dropdown link */
+.dropdown a {
+  display: block;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Style the competition links inside the dropdown */
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change the background color of the dropdown content on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+</style>
   </head>
 
 <body>
@@ -48,8 +85,8 @@ https://templatemo.com/tm-591-villa-agency
       <div class="row">
         <div class="col-lg-8 col-md-8">
           <ul class="info">
-            <li><i class="fa fa-envelope"></i> info@company.com</li>
-            <li><i class="fa fa-map"></i> Sunny Isles Beach, FL 33160</li>
+            <li><i class="fa fa-envelope"></i> asiangames2023.com</li>
+            <li><i class="fa fa-map"></i> Hangzhou, China</li>
           </ul>
         </div>
         <div class="col-lg-4 col-md-4">
@@ -72,17 +109,27 @@ https://templatemo.com/tm-591-villa-agency
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
                     <a href="index.html" class="logo">
-                        <h1>Villa</h1>
+                        <h1>AsianGames</h1>
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
                       <li><a href="index.html" class="active">Home</a></li>
-                      <li><a href="properties.html">Properties</a></li>
-                      <li><a href="property-details.html">Property Details</a></li>
-                      <li><a href="contact.html">Contact Us</a></li>
-                      <li><a href="#"><i class="fa fa-calendar"></i> Schedule a visit</a></li>
-                  </ul>   
+                      <li><a href="properties.html">News</a></li>
+                      <li class="dropdown">
+                        <a href="property-details.html">Competitions</a>
+                        <div class="dropdown-content">
+                          <!-- Add your competition links here -->
+                          <a href="competition1.html">Track&Field</a>
+                          <a href="competition2.html">Racquet Events</a>
+                          <a href="competition2.html">Weightlifitng</a>
+                          <a href="competition2.html">Swimming</a>
+                          <a href="competition2.html">Ball Sports</a>
+                        </div>
+                      </li>
+                      <li><a href="contact.html">About Us</a></li>
+                    </ul>
+                      
                     <a class='menu-trigger'>
                         <span>Menu</span>
                     </a>
@@ -98,20 +145,20 @@ https://templatemo.com/tm-591-villa-agency
     <div class="owl-carousel owl-banner">
       <div class="item item-1">
         <div class="header-text">
-          <span class="category">Toronto, <em>Canada</em></span>
-          <h2>Hurry!<br>Get the Best Villa for you</h2>
+          <span class="category">Wenzhou Olympic Sports Centre <em>Hangzhou</em></span>
+          <h2>Football, Cricket<br>and much more..</h2>
         </div>
       </div>
       <div class="item item-2">
         <div class="header-text">
-          <span class="category">Melbourne, <em>Australia</em></span>
-          <h2>Be Quick!<br>Get the best villa in town</h2>
+          <span class="category">Wenzhou Olympic Sports Centre <em>Hangzhou</em></span>
+          <h2>Boxing, Wresling<br></h2>
         </div>
       </div>
       <div class="item item-3">
         <div class="header-text">
-          <span class="category">Miami, <em>South Florida</em></span>
-          <h2>Act Now!<br>Get the highest level penthouse</h2>
+          <span class="category">Wenzhou Olympic Sports Centre <em>Hangzhou</em></span>
+          <h2>Athletics, Track & Field<br>and more..</h2>
         </div>
       </div>
     </div>
@@ -128,8 +175,8 @@ https://templatemo.com/tm-591-villa-agency
         </div>
         <div class="col-lg-5">
           <div class="section-heading">
-            <h6>| Featured</h6>
-            <h2>Best Appartment &amp; Sea view</h2>
+            <h6>| LATEST</h6>
+            <h2>News &amp; Updates</h2>
           </div>
           <div class="accordion" id="accordionExample">
             <div class="accordion-item">
